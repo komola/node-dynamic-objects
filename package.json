@@ -1,0 +1,36 @@
+{
+  "name": "dynamic-objects",
+  "version": "0.0.1",
+  "author": "Henning Dieterichs <henning.dieterichs@hediet.de>",
+  "description": "provides methods to provide dynamic data",
+  "contributors": [ 
+    {
+      "name": "Henning Dieterichs",
+      "email": "henning.dieterichs@hediet.de"
+    }, 
+    {
+      "name": "Komola GmbH",
+      "email": "info@komola.de"
+    }
+  ],
+  "main": "./lib/index",
+  "keywords": [
+    "polling",
+    "push",
+    "object",
+    "dynamic",
+    "binding"
+  ],
+  "scripts": {
+    "test": "make test"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "nodeunit": "*",
+    "coffee-script": ">= 1.3"
+  },
+  "license": "MIT"
+}
